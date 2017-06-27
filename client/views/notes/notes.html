@@ -1,0 +1,27 @@
+<template name="notes">
+    <div class="notes">
+        {{#each notes}}
+            <div class="note">
+                <div>
+                    <div class="remover" data-noteid="{{_id}}">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </div>
+                <p>{{text}}</p>
+            </div>
+        {{/each}}
+        <div class="footer">
+            <div class="center-justified">
+                <a href="/logout" class="float-button add-note-button">
+                    <div><i class="fa fa-sign-out"></i></div>
+                </a>
+                <a href="/addnote" class="float-button add-note-button">
+                    <div><i class="fa fa-plus"></i></div>
+                </a>
+                <a href="/changepass" class="float-button add-note-button">
+                    <div><i class="fa fa-unlock-alt"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</template>

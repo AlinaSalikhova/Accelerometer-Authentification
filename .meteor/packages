@@ -1,0 +1,47 @@
+# Meteor packages used by this project one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you
+# but you can also edit it by hand.
+
+# meteor libraries
+meteor-base@1.0.4
+ecmascript@0.7.2
+es5-shim@4.6.15
+check@1.2.5
+tracker@1.1.2
+
+# standard libraries
+jquery@1.11.10
+underscore@1.0.10
+less@2.7.9
+
+# ui
+blaze-html-templates@1.0.4
+reactive-dict@1.1.8
+reactive-var@1.0.11
+
+# data
+mongo@1.1.16
+
+# routing
+iron:router
+
+
+# accounts
+accounts-password@1.3.5
+
+# mobile
+crosswalk@1.7.1
+mobile-experience@1.0.4
+chriswessels:hammer
+
+# production
+juliancwirko:postcss
+standard-minifier-js@2.0.0
+ddp-rate-limiter@1.0.7
+twbs:bootstrap
+insecure
+autopublish
+session
+fortawesome:fontawesome

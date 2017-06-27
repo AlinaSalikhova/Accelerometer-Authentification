@@ -1,0 +1,37 @@
+<template name="changepass">
+    <div class="login-wrapper">
+
+        <div style="color:#fff; text-align: center"> Осталось ввести {{getReamingInputs}} раз</div>
+        <div class="code">
+            <div class="circle {{getActive 0}}"></div>
+            <div class="circle {{getActive 1}}"></div>
+            <div class="circle {{getActive 2}}"></div>
+            <div class="circle {{getActive 3}}"></div>
+            <div class="circle {{getActive 4}}"></div>
+            <div class="circle {{getActive 5}}"></div>
+            <div class="circle {{getActive 6}}"></div>
+        </div>
+        <div class="keypad">
+            <div class="keypad-row">
+                <div class="key circle" data-number="1"><div class="number">1</div><div class="letters"></div></div>
+                <div class="key circle" data-number="2"><div class="number">2</div><div class="letters">abc</div></div>
+                <div class="key circle" data-number="3"><div class="number">3</div><div class="letters">def</div></div>
+            </div>
+            <div class="keypad-row">
+                <div class="key circle" data-number="4"><div class="number">4</div><div class="letters">ghi</div></div>
+                <div class="key circle" data-number="5"><div class="number">5</div><div class="letters">jkl</div></div>
+                <div class="key circle" data-number="6"><div class="number">6</div><div class="letters">mno</div></div>
+            </div>
+            <div class="keypad-row">
+                <div class="key circle" data-number="7"><div class="number">7</div><div class="letters">pqrs</div></div>
+                <div class="key circle" data-number="8"><div class="number">8</div><div class="letters">tuv</div></div>
+                <div class="key circle" data-number="9"><div class="number">9</div><div class="letters">wxyz</div></div>
+            </div>
+            <div class="keypad-row">
+                <div class="key circle" data-action="backspace"><div class="number">&larr;</div> <div class="letters"></div></div>
+                <div class="key circle" data-number="0"><div class="number">0</div><div class="letters"></div></div>
+                <div class="key circle" data-action="clear"><div class="number">X</div><div class="letters"></div></div>
+            </div>
+        </div>
+    </div>
+</template>

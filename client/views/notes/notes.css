@@ -1,0 +1,53 @@
+.footer{
+    position: fixed;
+    bottom: 1vh;
+}
+body{
+    background: rgb(235, 235, 235);
+}
+.center-justified{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.note{
+    padding: 10px;
+    overflow: hidden;
+    word-break: break-all;
+    width: 80vw;
+    margin-left: 10vw;
+    background: rgb(250,250,250);
+    -webkit-box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
+    margin-top: 3vh;
+}
+.remover{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 7.5vw;
+    margin-top: -3.5vh;
+    background: #ff6641;
+    color:#fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.note:first-child{
+    margin-top: 5vh;
+}
+.float-button.add-note-button{
+    background: #6fdf64;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

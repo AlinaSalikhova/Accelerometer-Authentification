@@ -1,0 +1,79 @@
+@keyframes wongPass {
+    0%{
+        background: #fff;
+    }
+    25%{
+        background: #df4d4b;
+    }
+    50%{
+        background: #fff;
+    }
+    75%{
+        background: #df4d4b;
+    }
+    100%{
+        background: #fff;
+    }
+}
+.login-wrapper{
+    display:flex;
+    width: 100vw;
+    height:100vh;
+    flex-direction: column;
+    background: url('img/bkg.jpg');
+}
+.login-wrapper .code{
+    margin-top: 10vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.login-wrapper .code .circle{
+    display: block;
+    width: 20px;
+    margin-left: 5vw;
+    height: 20px;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+.login-wrapper .code .circle.wrong{
+    animation-name: wongPass;
+    animation-duration: 2s;
+}
+.login-wrapper .code .circle.active{
+    background: #fff;
+}
+.login-wrapper .code .circle:first-child{
+    margin-left: 0;
+}
+.login-wrapper .keypad{
+    margin-top: 20vh;
+    display: flex;
+    height:60vh;
+    width: 80vw;
+    margin-left: 10vw;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-wrapper .keypad .keypad-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-wrapper .keypad .keypad-row .key.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    flex-direction: column;
+    color:#fff;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+.login-wrapper .keypad .keypad-row .key.circle:active{
+    background: #fff;
+    color:#333;
+}
