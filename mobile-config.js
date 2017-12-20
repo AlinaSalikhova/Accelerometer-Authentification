@@ -2,8 +2,8 @@
 /* eslint-disable quote-props */
 
 App.info({
-  name: 'Todos',
-  description: 'A simple todo list app built in Meteor.',
+  name: 'Accelerometer-Authentification',
+  description: 'Accelerometer authentification.',
   author: 'Percolate Studio Team',
   email: 'us@percolatestudio.com',
   website: 'http://percolatestudio.com',
